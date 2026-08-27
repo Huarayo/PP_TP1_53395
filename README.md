@@ -1,6 +1,6 @@
 # TP1 - Paradigmas de Programación (UTN FRM)
 
-**Alumno:** Huarayo Leonarod  
+**Alumno:** Huarayo Leonardo  
 **Legajo:** 53395  
 
 ## 📝 Descripción
