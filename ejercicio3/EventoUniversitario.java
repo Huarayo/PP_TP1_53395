@@ -66,7 +66,7 @@ public class EventoUniversitario{
         System.out.println("Actividades: " + actividades.size());
         System.out.println("Costo Estimado: " + calcularCostoEstimado());
         
-        System.out.printf("\n --------Actividades ----------");
+        System.out.println("\n --------Actividades ----------");
         for(Actividad act: actividades){
             act.mostrarIdentificador();
             System.out.println("  Tipo: "+ act.getTipo()+

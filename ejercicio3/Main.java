@@ -37,7 +37,7 @@ public class Main {
         evento2.asignarSala(sala2);
         
         // d) CREAR ACTIVIDADES
-        System.out.println("\nc) CREANDO ACTIVIDADES:");
+        System.out.println("\nd) CREANDO ACTIVIDADES:");
         evento1.crearActividad("Taller", 3, "Introducción", 100);
         evento1.crearActividad("Taller", 4, "Conclusión",400);
         
@@ -45,19 +45,19 @@ public class Main {
         evento2.crearActividad("Charla", 2, "Tarde de charla", 300);
         
         // e) INSCRIPCION ESTUDIANTES
-        System.out.println("\nc) INSCRIBIENDO ESTUDIANTES:");
+        System.out.println("\ne) INSCRIBIENDO ESTUDIANTES:");
         evento1.getActividades().get(0).inscribir(est1);
         evento2.getActividades().get(1).inscribir(est2);
         evento1.getActividades().get(1).inscribir(est1);
         evento2.getActividades().get(0).inscribir(est3);
         
         // f) RESUMEN POR EVENTO 
-        System.out.println("\n RESUMEN EVENTOS Y ACTIVIDADES");
+        System.out.println("\nf) RESUMEN EVENTOS Y ACTIVIDADES");
         evento1.mostrarDatos();
         evento2.mostrarDatos();
         
         // g) CANTIDAD EVENTOS
-        System.out.println("\n CANTIDAD DE EVENTOS: "+ EventoUniversitario.cantidadEventos);
+        System.out.println("\n g) CANTIDAD DE EVENTOS: "+ EventoUniversitario.cantidadEventos);
     }
     
 }

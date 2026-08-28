@@ -22,7 +22,7 @@ public abstract class Actividad{
     public Inscripcion inscribir(Estudiante estudiante) {
         Inscripcion inscripcion = new Inscripcion(estudiante, this);
         inscripciones.add(inscripcion);
-        System.out.printf("nombre: " + estudiante.getNombre() + "inscripto en : " + this.titulo);
+        System.out.println("Nombre: " + estudiante.getNombre() + " Inscripto en : " + this.titulo);
         return inscripcion;
     }
     
@@ -30,9 +30,9 @@ public abstract class Actividad{
     public void mostrarInscripciones(){
         System.out.printf("\n---- Inscripciones en: " + this.titulo + " ---");
         for(Inscripcion i: inscripciones){
-            System.out.printf("° nombre: " + i.getEstudiante().getNombre() +
-                         "| fecha: " + i.getFecha() +
-                        "| estado: " + i.getEstado()
+            System.out.println("\n° nombre: " + i.getEstudiante().getNombre() +
+                         "\n| fecha: " + i.getFecha() +
+                        "\n| estado: " + i.getEstado()
             );
         }
     }

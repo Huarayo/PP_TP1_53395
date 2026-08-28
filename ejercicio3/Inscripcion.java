@@ -37,10 +37,10 @@ public class Inscripcion{
     @Override
     public String toString() {
         return "Inscripcion{" +
-                "estudiante=" + estudiante.getNombre() +
-                ", actividad=" + actividad.getTitulo() +
-                ", fecha=" + fecha +
-                ", estado='" + estado + '\'' +
+                "\nestudiante=" + estudiante.getNombre() +
+                "\n, actividad=" + actividad.getTitulo() +
+                "\n, fecha=" + fecha +
+                "\n, estado='" + estado + '\'' +
                 '}';
     }
 
